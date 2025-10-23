@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import {ToDoProvider,useToDo,ToDoContext} from './context'
 import './App.css'
 import TodoForm from './Components/ToDoForm'
-import ToDoItem from './Components/ToDOitem'
+import ToDoItem from './Components/ToDoitem'
 
 function App() {
  const [todos,setTodos]=useState([])
